@@ -1,0 +1,23 @@
+{
+  "name": "psd-sass-bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "http-server . -s -o",
+    "presass": "cp ./src/index.html ./dist/",
+    "sass": "node-sass ./src/scss/main.scss --include-path ./src/scss/ --include-path ./node_modules/bootstrap-sass/assets/stylesheets/ -o ./dist/css/",
+    "clear": "rimraf build build/"
+  },
+  "author": "Carlos",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "node-sass": "^4.9.2",
+    "rimraf": "^2.6.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.2"
+  }
+}
