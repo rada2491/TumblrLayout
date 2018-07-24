@@ -1,5 +1,21 @@
+header {
+  background-color: #36465d; }
+  header .tum-icon {
+    margin-left: 59px;
+    margin-right: 59px; }
+    header .tum-icon img {
+      width: 28px;
+      height: 35px; }
+  header .form-input {
+    margin-right: 429px; }
+    header .form-input input {
+      width: 351px;
+      height: 35px; }
+  header .nav-icons {
+    width: 29px;
+    height: 23px;
+    margin-bottom: 27px;
+    margin-top: 24px; }
+
 body {
   background-color: #d2dae6; }
-
-.bg-col {
-  background-color: #36465d; }

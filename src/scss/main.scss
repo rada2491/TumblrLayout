@@ -1,7 +1,33 @@
+header {
+    background-color: #36465d;
+
+    .tum-icon {
+        margin-left: 59px; 
+        margin-right: 59px;
+
+        img {
+            width: 28px;
+            height: 35px;
+        }
+    }
+    .form-input {
+        margin-right: 429px;
+
+        input {
+            width: 351px; 
+            height: 35px;
+        }
+    }
+
+    .nav-icons {
+        width: 29px;
+        height: 23px;
+        margin-bottom: 27px;
+        margin-top: 24px;
+    }
+}
+
 body {
     background-color: #d2dae6;
 }
 
-.bg-col {
-    background-color: #36465d;
-}
